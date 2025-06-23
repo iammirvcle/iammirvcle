@@ -1,37 +1,26 @@
-<h1>Active Directory Home Lab</h1>
+# 👋🏾 Hi, I'm Emir Taylor (iammirvcle)
 
- ### [Link will g here](https://youtube.com)
+Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scalable IT solutions with real-world impact.
 
-<h2>Description</h2>
-This project lab consists of quickly creating an Active Directory Home Lab using Virtualization. We'll be adding users and walking throught the setup with commentary and pictures.
-<br />
+🛡️ **Core Expertise**  
+- Identity & Access Management (Azure AD, CyberArk, Okta)  
+- Cloud Infrastructure & Automation (Azure, AWS, Terraform)  
+- Endpoint Security & Remote Monitoring (Intune, SentinelOne, PowerShell)  
 
+📂 **Featured Labs & Projects**  
+- 🔐 [Azure AD Role Automation](https://github.com/iammirvcle/azure-ad-role-automation)  
+- 🧰 [IAM Policy Enforcement Lab](https://github.com/iammirvcle/iam-policy-enforcement-lab)  
+- 💻 [Mirvcle Cloud Infra-as-Code](https://github.com/iammirvcle/mirvcle-cloud-infra-prod)  
+- 📊 [Threat Monitoring Dashboard (Splunk + SentinelOne)](https://github.com/iammirvcle/mirvcle-threat-monitoring-dashboard)  
+- 🤖 [Mirvcle Ticketing Automation](https://github.com/iammirvcle/mirvcle-ticketing-automation)  
 
-<h2>Languages and Utilities Used</h2>
+🎯 **Currently Learning**  
+- AWS Solutions Architect Associate  
+- Microsoft AZ-104 Azure Administrator  
+- CyberArk Privileged Access Management  
 
-- <b>PowerShell</b> 
+🚀 Building purposeful tech @ [Mirvcle](https://mirvcle.tech)  
 
+---
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-
-</p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+📬 Feel free to connect: [LinkedIn](https://linkedin.com/in/emirtaylor)
