@@ -16,10 +16,10 @@ Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scala
 
 🎯 **Currently Learning**  
 - AWS Solutions Architect Associate  
-- Microsoft AZ-104 Azure Administrator  
+- Microsoft AZ-104 Azure Administrator
+- Oracle OCI Architect 
 - CyberArk Privileged Access Management  
 
-🚀 Building purposeful tech @ [Mirvcle](https://mirvcle.tech)  
 
 ---
 
