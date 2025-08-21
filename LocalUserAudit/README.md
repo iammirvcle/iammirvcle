@@ -1,5 +1,3 @@
-
-```markdown
 # Local User Account Audit
 
 A PowerShell script that audits all local accounts on a Windows system and generates both a CSV and summary text report.
