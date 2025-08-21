@@ -1,5 +1,3 @@
-
-```markdown
 # Git Secret Guard – Pre-Commit Hook
 
 Lightweight pre-commit hook to block committing **secrets** (e.g., keys, tokens, private keys). Works on Windows (PowerShell) and macOS/Linux (Bash).
