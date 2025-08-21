@@ -1,19 +1,16 @@
+# Azure VM Setup & Monitoring (Windows + Linux)
 
-```markdown
-# Azure VM Setup & Monitoring
+Hands-on lab provisioning **two** free-tier Azure VMs (Windows Server + Ubuntu), enabling monitoring (platform metrics + VM Insights), and capturing evidence.
 
-Provisioned a free-tier B1s VM in Azure and enabled metrics to monitor CPU, Disk, and Network activity. Screenshots included in the `screenshots/` folder.
+## Sub-Labs
+- [Windows VM Lab](./Windows) — RDP (optional), CPU spike via PowerShell, Azure Monitor charts.
+- [Linux VM Lab](./Linux) — SSH (optional), CPU spike via `yes`, Azure Monitor charts.
 
-## Steps Taken
-1. Created a Windows VM in Azure Free Tier.
-2. Enabled **Azure Monitor** for performance metrics.
-3. Captured screenshots of:
-   - VM Overview
-   - Metrics dashboard (CPU, Disk, Network)
-   - Activity Log
+## Deliverables
+For each OS, screenshots live in `./<OS>/screenshots/`:
+- `overview.png` — VM Overview blade
+- `metrics.png` — Azure Monitor chart (CPU + Network + Disk)
+- `activitylog.png` — Activity Log (Create/Start/Stop events)
 
-## Why it matters
-Demonstrates basic cloud administration tasks:
-- Provisioning compute resources
-- Enabling monitoring & health checks
-- Validating VM performance
+## Why this matters
+Demonstrates core cloud admin skills: provisioning, enabling monitoring/insights, validating health & activity, and documenting results for a portfolio.
