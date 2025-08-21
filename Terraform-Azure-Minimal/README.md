@@ -1,6 +1,16 @@
-# Terraform Azure Minimal
+# Terraform – Azure Minimal (RG + Storage)
 
-Creates a Resource Group and Storage Account in Azure.
+Minimal Terraform configuration that creates:
+- An **Azure Resource Group**
+- A **Storage Account** (standard LRS)
+
+## Prerequisites
+- Terraform **>= 1.5**
+- Azure CLI (`az`) authenticated:
+```bash
+az login
+# Optional: select subscription
+az account set --subscription "<SUBSCRIPTION_ID>"
 
 ## Use
 ```bash
