@@ -12,3 +12,7 @@ Lightweight pre-commit hook to block committing **secrets** (e.g., keys, tokens,
 ### 1. Point Git to this repo’s hooks
 ```bash
 git config core.hooksPath Git-Secret-Guard/hooks
+
+linux/mac - make it executable
+
+chmod +x Git-Secret-Guard/hooks/pre-commit
