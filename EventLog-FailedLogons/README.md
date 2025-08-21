@@ -14,3 +14,6 @@ PowerShell script that scans the Windows **Security** event log for recent faile
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 .\FailedLogons.ps1 -Minutes 60 -OutPath .\output\failed-logons.csv
+
+output/failed-logons.csv with columns:
+TimeCreated, TargetUser, TargetDomain, LogonType, IpAddress, Workstation, FailureReason, Status, SubStatus, Computer, RecordId
