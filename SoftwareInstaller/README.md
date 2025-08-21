@@ -12,10 +12,4 @@ A PowerShell script that automates installing common IT tools via `winget`. Supp
 Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 .\Install-CommonApps.ps1 -Profile standard
 
-Output
-Log file: output/install-log.txt
 
-Why it matters
-Speeds up endpoint provisioning
-Ensures consistent toolsets across environments
-Reduces manual install time for IT admins
