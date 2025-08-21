@@ -1,12 +1,10 @@
-
-```markdown
 # Azure Linux VM — Setup & Monitoring
 
-Provisioned a **B1s** Ubuntu VM, enabled monitoring (platform metrics + VM Insights), and captured evidence.
-
+Provisioned an Ubuntu VM, enabled monitoring (platform metrics + VM Insights), and captured evidence.
 ---
 
-## A) Create VM (Portal)
+
+## Step 1 Create VM (Portal)
 1. Go to **portal.azure.com** → **Create a resource** → **Virtual machine**.
 2. **Basics**
    - **Resource group:** `rg-vm-lab` (reuse or create)
@@ -23,16 +21,12 @@ Provisioned a **B1s** Ubuntu VM, enabled monitoring (platform metrics + VM Insig
 5. **Monitoring:** leave default On; VM Insights will be enabled later.
 6. **Review + create** → **Create**.
 
----
-
-## B) Enable VM Insights
+## Step 2 Enable VM Insights
 1. Open the VM → **Monitoring → Insights** → **Enable**.
 2. If prompted, allow Azure to create/attach a **Log Analytics workspace**.
 3. Wait until **Performance** and **Maps** tabs populate.
 
----
-
-## C) (Optional) Allow SSH temporarily
+## Step 3 (Optional) Allow SSH temporarily
 If you want to generate CPU activity from inside the VM:
 1. VM → **Networking** → **Add inbound port rule**
    - **Destination port ranges:** `22`
