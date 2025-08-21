@@ -11,5 +11,3 @@ A PowerShell script that automates installing common IT tools via `winget`. Supp
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 .\Install-CommonApps.ps1 -Profile standard
-
-
