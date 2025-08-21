@@ -9,5 +9,4 @@ terraform plan -out tf.plan
 terraform apply tf.plan
 
 To destroy:
-'''bash
 terraform destroy
