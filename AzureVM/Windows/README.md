@@ -2,7 +2,6 @@
 
 Provisioned a Windows Server VM, enabled monitoring (platform metrics + VM Insights), and captured evidence.
 
----
 
 ## Step 1 Create VM (Portal)
 1. Go to **portal.azure.com** → **Create a resource** → **Virtual machine**.
