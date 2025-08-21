@@ -18,4 +18,4 @@ Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 ## Why it matters
 - Speeds up endpoint provisioning
 - Ensures consistent toolsets across environments
-- Reduces manual install time for IT admins
+- Reduces manual install time sys admins
