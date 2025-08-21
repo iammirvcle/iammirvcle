@@ -1,10 +1,9 @@
 # Azure Windows VM — Setup & Monitoring
 
-Provisioned a **B1s** Windows Server VM, enabled monitoring (platform metrics + VM Insights), and captured evidence.
-
+Provisioned a Windows Server VM, enabled monitoring (platform metrics + VM Insights), and captured evidence.
 ---
 
-## A) Create VM (Portal)
+## Step 1 Create VM (Portal)
 1. Go to **portal.azure.com** → **Create a resource** → **Virtual machine**.
 2. **Basics**
    - **Resource group:** `rg-vm-lab` (Create new if needed)
@@ -23,14 +22,14 @@ Provisioned a **B1s** Windows Server VM, enabled monitoring (platform metrics + 
 
 ---
 
-## B) Enable VM Insights
+## Step 2 Enable VM Insights
 1. Open the VM → **Monitoring → Insights** → **Enable**.
 2. If prompted, allow Azure to create/attach a **Log Analytics workspace**.
 3. Wait until **Performance** and **Maps** tabs populate.
 
 ---
 
-## C) (Optional) Allow RDP temporarily
+## Step 3 (Optional) Allow RDP temporarily
 If you want to generate CPU activity from inside the VM:
 1. VM → **Networking** → **Add inbound port rule**
    - **Destination port ranges:** `3389`
@@ -43,7 +42,7 @@ If you want to generate CPU activity from inside the VM:
 
 ---
 
-## D) Generate activity (optional, but helpful for charts)
+## Step 4 Generate activity (optional, but helpful for charts)
 **Inside the Windows VM (PowerShell):**
 ```powershell
 # quick 30-second CPU spin
