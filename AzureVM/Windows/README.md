@@ -20,14 +20,10 @@ Provisioned a Windows Server VM, enabled monitoring (platform metrics + VM Insig
 5. **Monitoring:** leave default On; VM Insights will be enabled later.
 6. **Review + create** → **Create**.
 
----
-
 ## Step 2 Enable VM Insights
 1. Open the VM → **Monitoring → Insights** → **Enable**.
 2. If prompted, allow Azure to create/attach a **Log Analytics workspace**.
 3. Wait until **Performance** and **Maps** tabs populate.
-   
----
 
 ## Step 3 (Optional) Allow RDP temporarily
 If you want to generate CPU activity from inside the VM:
@@ -39,8 +35,6 @@ If you want to generate CPU activity from inside the VM:
    - **Name:** `allow-rdp-temp`
 2. From your computer, RDP to the VM’s **Public IP**.
 3. **After** you’re done, **remove** this inbound rule.
-
----
 
 ## Step 4 Generate activity (optional, but helpful for charts)
 **Inside the Windows VM (PowerShell):**
