@@ -9,6 +9,6 @@ Lightweight pre-commit hook to block committing **secrets** (e.g., keys, tokens,
 
 ## Install (per repository)
 
-### 1) Point Git to this repo’s hooks
+### 1. Point Git to this repo’s hooks
 ```bash
 git config core.hooksPath Git-Secret-Guard/hooks
