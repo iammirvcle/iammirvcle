@@ -1,12 +1,21 @@
+
+```markdown
 # Local User Account Audit
-PowerShell script that lists all local users and flags high-risk conditions.
 
-**Flags**
-- Disabled accounts
-- Administrator group membership
-- Inactive (>90 days or never logged in)
-- Password never expires
+A PowerShell script that audits all local accounts on a Windows system and generates both a CSV and summary text report.
 
-**Output**
-- `local-users-audit.csv` with full details
-- `Findings.txt` summary for quick review
+## Features
+- Lists all local accounts.
+- Flags:
+  - Disabled accounts
+  - Administrator membership
+  - Inactive accounts (>90 days or never logged in)
+  - Password never expires
+- Outputs:
+  - `output/local-users-audit.csv`
+  - `output/Findings.txt`
+
+## Run
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
+.\LocalUserAudit.ps1
