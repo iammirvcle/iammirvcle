@@ -1,8 +1,4 @@
 
----
-
-## 🔒 Project 2 — `LocalUserAudit/README.md`
-
 ```markdown
 # Local User Account Audit
 
