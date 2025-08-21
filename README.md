@@ -8,11 +8,7 @@ Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scala
 - Endpoint Security & Remote Monitoring (Intune, SentinelOne, PowerShell)  
 
 📂 **Featured Labs & Projects**  
-- 🔐 [Azure AD Role Automation](https://github.com/iammirvcle/azure-ad-role-automation)  
-- 🧰 [IAM Policy Enforcement Lab](https://github.com/iammirvcle/iam-policy-enforcement-lab)  
-- 💻 [Mirvcle Cloud Infra-as-Code](https://github.com/iammirvcle/mirvcle-cloud-infra-prod)  
-- 📊 [Threat Monitoring Dashboard (Splunk + SentinelOne)](https://github.com/iammirvcle/mirvcle-threat-monitoring-dashboard)  
-- 🤖 [Mirvcle Ticketing Automation](https://github.com/iammirvcle/mirvcle-ticketing-automation)  
+
 
 🎯 **Currently Learning**  
 - AWS Solutions Architect Associate  
