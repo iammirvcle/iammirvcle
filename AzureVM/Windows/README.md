@@ -26,7 +26,7 @@ Provisioned a Windows Server VM, enabled monitoring (platform metrics + VM Insig
 1. Open the VM → **Monitoring → Insights** → **Enable**.
 2. If prompted, allow Azure to create/attach a **Log Analytics workspace**.
 3. Wait until **Performance** and **Maps** tabs populate.
-
+   
 ---
 
 ## Step 3 (Optional) Allow RDP temporarily
