@@ -1,13 +1,13 @@
 # PC Asset Inventory Script
-Simple PowerShell script that captures device hardware/software basics into a CSV for ITAM.
 
-**Outputs:** Computer name, OS/build, CPU, RAM, disk totals, serial, IP, user, installed app count.
+A simple PowerShell script that captures device hardware/software details and exports them to a CSV file for IT Asset Management (ITAM).
 
-**Run**
-- Open PowerShell (Admin), `Set-ExecutionPolicy -Scope CurrentUser Bypass -Force`
-- `.\Inventory.ps1` → CSV saved to `output\asset-inventory.csv`
+## Features
+- Captures: Computer name, OS/build, CPU, RAM, disk totals/free, serial number, IP address, installed app count, logged-in user.
+- Outputs to `output/asset-inventory.csv`.
+- Useful for onboarding, lifecycle tracking, or quick audits.
 
-**Use cases**
-- First-pass inventory during onboarding
-- Pre-reimage snapshot
-- Quick audit for aging/EOL devices
+## Run
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
+.\Inventory.ps1
