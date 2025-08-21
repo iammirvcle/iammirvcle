@@ -9,7 +9,10 @@ PowerShell script to create a **baseline** of file hashes (SHA-256) for a direct
 
 ## Run
 
-### 1) Create a baseline
+### 1. Create a baseline
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 .\FIM.ps1 -Path "C:\Important" -BaselineOut .\baseline.json
+
+### 2. Compare against baseline
+.\FIM.ps1 -Path "C:\Important" -BaselineIn .\baseline.json -ReportOut .\report.json
