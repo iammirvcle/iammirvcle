@@ -7,3 +7,7 @@ Creates a Resource Group and Storage Account in Azure.
 terraform init
 terraform plan -out tf.plan
 terraform apply tf.plan
+
+To destroy:
+'''bash
+terraform destroy
