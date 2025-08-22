@@ -14,3 +14,6 @@ For each OS, screenshots live in `./<OS>/screenshots/`:
 
 ## Why this matters
 Demonstrates core cloud admin skills: provisioning, enabling monitoring/insights, validating health & activity, and documenting results for a portfolio.
+
+## Outcome (example)
+Provisioned Windows + Linux VMs on B1s, enabled platform metrics and VM Insights, and captured CPU/Network/Disk charts; full lab reproducible in <10 minutes.
