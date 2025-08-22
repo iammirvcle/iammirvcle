@@ -9,22 +9,22 @@ Hands-on Azure labs and PowerShell scripts you can deploy quickly.
 - [VM Setup & Monitoring (Windows + Linux)](./AzureVM/)
 
 ### Secrets & Cost Governance
-- [Azure Key Vault Lab](./azure%20key%20vault%20lab/)
-- [Azure Budget Alerts](./Azure%20Budget%20alerts/)
+- [Azure Key Vault Lab](./AzureKeyVault-Lab/)
+- [Azure Budget Alerts](./Azure-Budget-Alerts/)
 
 ### Endpoint Security & Ops
-- [Defender + Firewall Audit](./defender%20firewall%20audit/)
-- [EventLog – Failed Logons](./eventlog%20failed%20logons/)
-- [File Integrity – Baseline & Compare](./file%20integrity%20baseline/)
-- [Services Health (Self-Heal optional)](./services%20health/)
-- [Patch Compliance Snapshot](./patch%20compliance%20snapshot/)
+- [Defender + Firewall Audit](./DefenderFirewall-Audit/)
+- [EventLog – Failed Logons](./EventLog-FailedLogons/)
+- [File Integrity – Baseline & Compare](./FileIntegrity-Baseline/)
+- [Services Health (Self-Heal optional)](./Services-Health/)
+- [Patch Compliance Snapshot](./PatchCompliance-Snapshot/)
 
 ### ITAM & Provisioning
-- [PC Asset Inventory](./inventory/)
-- [Automated Software Installer (winget)](./software%20installer/)
+- [PC Asset Inventory](./Inventory/)
+- [Automated Software Installer (winget)](./SoftwareInstaller/)
 
 ### Infrastructure as Code
-- [Terraform – Azure Minimal](./terraform%20azure%20minimal/)
+- [Terraform – Azure Minimal](./Terraform-Azure-<Minimal/)
 
 
 ## ✅ Outcomes (examples)
