@@ -20,7 +20,7 @@ Hands-on Azure labs and PowerShell scripts you can deploy quickly.
 - [Patch Compliance Snapshot](./PatchCompliance-Snapshot/)
 
 ### ITAM & Provisioning
-- [PC Asset Inventory](./Inventory/)
+- [IT Asset Inventory](./Inventory/)
 - [Automated Software Installer (winget)](./SoftwareInstaller/)
 
 ### Infrastructure as Code
