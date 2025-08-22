@@ -14,6 +14,9 @@ Create a **private** S3 bucket with **Block Public Access** and **default encryp
    - Scope: All resources
    - Save and evaluate.
 
+Outcome (example)
+Provisioned a private, encrypted bucket and verified continuous compliance via AWS Config.
+
 ## Optional (CLI)
 ```bash
 # create bucket (update region/name)
