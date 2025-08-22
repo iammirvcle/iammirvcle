@@ -24,7 +24,7 @@ Hands-on Azure labs and PowerShell scripts you can deploy quickly.
 - [Automated Software Installer (winget)](./SoftwareInstaller/)
 
 ### Infrastructure as Code
-- [Terraform – Azure Minimal](./Terraform-Azure-<Minimal/)
+- [Terraform – Azure Minimal](./Terraform-Azure-Minimal/)
 
 
 ## ✅ Outcomes (examples)
