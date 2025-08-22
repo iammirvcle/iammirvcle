@@ -17,3 +17,6 @@ Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 
 output/failed-logons.csv with columns:
 TimeCreated, TargetUser, TargetDomain, LogonType, IpAddress, Workstation, FailureReason, Status, SubStatus, Computer, RecordId
+
+## Outcome (example)
+Surfaced 12 failed logons in the last hour (same source IP), enabling quick triage of a password-spray attempt.
