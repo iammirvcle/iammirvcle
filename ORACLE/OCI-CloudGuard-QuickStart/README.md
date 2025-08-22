@@ -1,12 +1,16 @@
-# Oracle OCI – Cloud Guard Quick Start
+# OCI Cloud Guard – Quick Start
 
-Enable **Cloud Guard** in your tenancy, target your root compartment, and review findings.
+Enable **Cloud Guard**, target your root compartment, and review posture findings.
 
-## Steps (Console)
-1. Security → **Cloud Guard** → Enable (select **Target** = root compartment).
-2. Choose **Detector recipe** defaults and **Responder recipe** (read-only at first).
-3. Wait for findings, then open **Dashboard** → review active problems (e.g., public buckets, weak policies).
-4. Capture screenshots: Dashboard and a sample Problem detail.
+## Steps
+1. Security → **Cloud Guard** → **Enable Cloud Guard**.
+2. **Target:** Root compartment; accept default **Detector** & **Responder** recipes.
+3. Wait a few minutes → open **Dashboard** → review **Active Problems**.
+4. Drill into 1–2 Problems (e.g., public bucket) and note recommended responders.
+
+## Evidence to capture
+- Cloud Guard **Dashboard**
+- A sample **Problem** detail page
 
 ## Outcome (example)
-Enabled Cloud Guard and surfaced 1–2 baseline findings in the tenancy, demonstrating posture visibility and next steps for remediation.
+Enabled Cloud Guard and surfaced baseline findings, providing prioritized next steps for remediation.
