@@ -13,3 +13,6 @@ PowerShell script to create a **baseline** of file hashes (SHA-256) for a direct
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 .\FIM.ps1 -Path "C:\Important" -BaselineOut .\baseline.json
+
+## Outcome (example)
+Detected 3 modified files and 1 new file after baseline; produced a JSON report suitable for incident response evidence.
