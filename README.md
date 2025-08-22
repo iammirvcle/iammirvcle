@@ -9,13 +9,13 @@ Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scala
 - **ITAM & Workflow:** ServiceNow/CMDB mindset, lifecycle tracking, automation  
 - **IaC & Tooling:** Terraform (Azure), Git pre-commit secret scanning
 
-☁️ ## Cloud Directories
+☁️ Cloud Directories
 - **Azure:** [/AZURE](./AZURE) — Compute/Monitoring, Key Vault, Budgets, security audits, provisioning, and IaC  
 - **AWS:** [/AWS](./AWS) — S3 security & compliance, CloudTrail alarms, IAM MFA guardrail  
 - **Oracle OCI:** [/ORACLE](./ORACLE) — Cloud Guard, secure Object Storage, Budgets & alerts
 
 
-📂 ## Quick Links — Azure Labs
+📂 Quick Links — Azure Labs
 > All live under `/AZURE`.
 
 ### Compute & Monitoring
