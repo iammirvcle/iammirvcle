@@ -6,3 +6,5 @@ Creates a simple patch-age report and flags the device as **OutOfDate** if the l
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 .\Snapshot.ps1 -ThresholdDays 30
+
+output/patch-snapshot.csv
