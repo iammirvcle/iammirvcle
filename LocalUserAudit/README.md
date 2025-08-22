@@ -17,3 +17,5 @@ A PowerShell script that audits all local accounts on a Windows system and gener
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
 .\LocalUserAudit.ps1
+## Outcome (example)
+Identified 2 inactive local accounts (1 with admin rights) on a test box, providing clear evidence (CSV + summary) for privilege cleanup and IAM hygiene.
