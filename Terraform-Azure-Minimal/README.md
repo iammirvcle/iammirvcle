@@ -20,3 +20,6 @@ terraform apply tf.plan
 
 To destroy:
 terraform destroy
+
+## Outcome (example)
+Created and destroyed RG + Storage via IaC in ~40 seconds, demonstrating reproducible, idempotent provisioning.
