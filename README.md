@@ -1,4 +1,4 @@
-# 👨🏾‍💻 Emir Taylor - Cybersecurity, IAM & Cloud Ops
+# 👨🏾‍💻 Emir Taylor - Cybersecurity IAM & Cloud Ops
 
 Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scalable IT solutions with real-world impact. This repo highlights hands-on labs and automation projects demonstrating IT asset management, identity security, and cloud administration.
 
@@ -9,13 +9,13 @@ Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scala
 - **ITAM & Workflow:** ServiceNow/CMDB mindset, lifecycle tracking, automation  
 - **IaC & Tooling:** Terraform (Azure), Git pre-commit secret scanning
 
-☁️ Cloud Directories
-- **Azure:** [/AZURE](./AZURE) — Compute/Monitoring, Key Vault, Budgets, security audits, provisioning, and IaC  
-- **AWS:** [/AWS](./AWS) — S3 security & compliance, CloudTrail alarms, IAM MFA guardrail  
-- **Oracle OCI:** [/ORACLE](./ORACLE) — Cloud Guard, secure Object Storage, Budgets & alerts
+☁️ **Cloud Directories**
+- **Azure:** [/AZURE](./AZURE) - Compute/Monitoring, Key Vault, Budgets, security audits, provisioning, and IaC  
+- **AWS:** [/AWS](./AWS) - S3 security & compliance, CloudTrail alarms, IAM MFA guardrail  
+- **Oracle OCI:** [/ORACLE](./ORACLE) - Cloud Guard, secure Object Storage, Budgets & alerts
 
 
-📂 Quick Links — Azure Labs
+📂 **Quick Links: Azure Labs**
 > All live under `/AZURE`.
 
 ### Compute & Monitoring
@@ -40,7 +40,7 @@ Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scala
 - [Terraform – Azure Minimal](./AZURE/Terraform-Azure-Minimal/)
 
 
-🔗 Feel free to connect: 
+🔗 **Feel free to connect:**
 LinkedIn: linkedin.com/in/emirtaylor
 Blog: mirvcle.cloud/blog
 
