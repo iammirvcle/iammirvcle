@@ -18,30 +18,32 @@ Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scala
 📂 **Quick Links: Azure Labs**
 > All live under `/AZURE`.
 
-### Compute & Monitoring
+## Compute & Monitoring
 - [VM Setup & Monitoring (Windows + Linux)](./AZURE/AzureVM/)
 
-### Secrets & Cost Governance
+## Secrets & Cost Governance
 - [Azure Key Vault Lab](./AZURE/AzureKeyVault-Lab/)
 - [Azure Budget Alerts](./AZURE/Azure-Budget-Alerts/)
 
-### Endpoint Security & Ops
+## Endpoint Security & Ops
 - [Defender + Firewall Audit](./AZURE/DefenderFirewall-Audit/)
 - [EventLog – Failed Logons](./AZURE/EventLog-FailedLogons/)
 - [File Integrity – Baseline & Compare](./AZURE/FileIntegrity-Baseline/)
 - [Services Health (Self-Heal optional)](./AZURE/Services-Health/)
 - [Patch Compliance Snapshot](./AZURE/PatchCompliance-Snapshot/)
 
-### ITAM & Provisioning
+## ITAM & Provisioning
 - [IT Asset Inventory](./AZURE/Inventory/)
 - [Automated Software Installer (winget)](./AZURE/SoftwareInstaller/)
 
-### Infrastructure as Code
+## Infrastructure as Code
 - [Terraform – Azure Minimal](./AZURE/Terraform-Azure-Minimal/)
 
 
 🔗 **Feel free to connect:**
+
 LinkedIn: linkedin.com/in/emirtaylor
+
 Blog: mirvcle.cloud/blog
 
 
