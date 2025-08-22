@@ -1,6 +1,3 @@
-
-**File:** `AzureKeyVault-Lab/README.md`
-```markdown
 # Azure Key Vault – Secrets & Rotation Lab
 
 Creates a Key Vault, stores a secret, retrieves it, rotates it, and documents the process with screenshots.
