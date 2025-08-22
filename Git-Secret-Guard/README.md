@@ -22,3 +22,5 @@ test it
 git add example.txt
 git commit -m "test hook"
 
+## Outcome (example)
+Blocked a commit containing a mock Slack token during testing, preventing accidental secret leakage into the repo.
