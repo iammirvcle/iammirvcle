@@ -1,4 +1,4 @@
-# Azure Labs (Compute • Security • Monitoring • IAM • Cost • IaC)
+# Azure Labs 
 
 Hands-on Azure labs and PowerShell scripts you can deploy quickly. 
 
