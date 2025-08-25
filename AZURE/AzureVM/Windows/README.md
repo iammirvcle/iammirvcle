@@ -34,7 +34,7 @@ With a Free Trial subscription you get 750 hours/month of B1s VM (Linux or Windo
 2. If prompted, allow Azure to create/attach a **Log Analytics workspace**.
 3. Wait until **Performance** and **Maps** tabs populate.
 
-## Step 3 (Optional) Allow RDP temporarily
+## Step 3 (Optional) Connect & Configure to VM via RDP temporarily
 If you want to generate CPU activity from inside the VM:
 1. VM → **Networking** → **Add inbound port rule**
    - **Destination port ranges:** `3389`
