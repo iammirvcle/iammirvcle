@@ -25,12 +25,59 @@ Creates a Key Vault, stores a secret, retrieves it, rotates it, and documents th
    - Secrets list (`screenshots/secrets.png`)
    - Secret versions (`screenshots/versions.png`)
 
-## Optional (PowerShell)
-```powershell
-# Requires Az.Accounts, Az.KeyVault
-Connect-AzAccount
-New-AzResourceGroup -Name rg-kv-lab -Location eastus
-$kv = New-AzKeyVault -Name "kv-lab-$(Get-Random)" -ResourceGroupName rg-kv-lab -Location eastus
-Set-AzKeyVaultSecret -VaultName $kv.VaultName -Name "db-password" -SecretValue (ConvertTo-SecureString "InitialP@ss!" -AsPlainText -Force)
-(Get-AzKeyVaultSecret -VaultName $kv.VaultName -Name "db-password").SecretValueText
-Set-AzKeyVaultSecret -VaultName $kv.VaultName -Name "db-password" -SecretValue (ConvertTo-SecureString "RotatedP@ss!" -AsPlainText -Force)
+
+6. 🔑 Key Vault Permission Models
+
+   1. Vault Access Policy (Legacy)
+
+      The old way of controlling access.
+
+      		You create explicit access policies inside the Key Vault itself.
+
+      		Example: Give Emir “Secret Get + List” permissions.
+
+     		 Management is per vault → gets messy if you have many Key Vaults.
+
+     		 No role granularity → you pick checkboxes (Secrets, Keys, Certificates), not the full RBAC model.
+
+   👉 Best for: small labs, simple one-off use cases.
+
+
+
+    2. Azure RBAC (Role-Based Access Control)
+   
+   		The modern, recommended way.
+
+     		 Uses Azure AD roles and scopes (subscription → resource group → resource).
+
+      		Access is assigned just like any other Azure resource: you give someone a role like Key Vault Secrets User at the resource group or vault level.
+
+      		Scales better → one role assignment can cover many vaults.
+
+      		Auditing and consistency is easier since it’s all centralized in Azure AD.
+
+   		👉 Best for: production, enterprise, and free-tier labs (because Microsoft recommends it).
+
+
+## ⚖️ Key Differences to Understand based on Scope, Granularity, Adubitability, and Reccomendation.
+
+
+Vault Access Policy, Only applies inside one vault, Coarse (Secrets/Keys/Certs), Harder, not centralized,  ❌ Legacy          
+
+Azure RBAC,  Works across subscription / RG / vault, Fine-grained RBAC roles, Centralized in Azure AD logs, ✅ Microsoft best practice
+
+
+
+When you create your Key Vault, choose "Azure RBAC" for the permission model.
+
+This means:
+
+	You won’t set access inside the vault directly.
+
+	Instead, you’ll assign yourself (or a service principal) an Azure role like:
+
+   	Key Vault Reader (read metadata)
+
+   	Key Vault Secrets User (get/list secrets)
+
+   	Key Vault Administrator (full control).
