@@ -3,14 +3,24 @@
 Creates a Key Vault, stores a secret, retrieves it, rotates it, and documents the process with screenshots.
 
 ## Steps (Portal)
-1. Create resource group `rg-kv-lab`.
-2. Create **Key Vault** `kv-lab-<unique>` in the same region.
-3. In **Secrets**:
-   - Add secret: Name `db-password`, Value `InitialP@ss!`.
-   - Copy the Secret Identifier URL.
-4. Retrieve + rotate:
-   - Add a **new version** with a different value (`RotatedP@ss!`).
-5. Capture screenshots:
+1. In the search bar, type Key Vaults → Click + Create.
+2. Fill out:
+
+   Subscription → Same as above.
+
+   Resource group → rg-free-tier-lab
+
+   Key Vault name → must be globally unique, e.g. kv-lab-yourinitials
+
+   Region → East US (same as RG).
+
+   Pricing tier → Select Standard (✅ free-tier friendly).
+
+4. Under Access Configuration, leave default as Vault access policy unless lab says otherwise.
+
+5. Click Review + Create → Create.
+
+6. Capture screenshots:
    - Vault Overview (`screenshots/overview.png`)
    - Secrets list (`screenshots/secrets.png`)
    - Secret versions (`screenshots/versions.png`)
