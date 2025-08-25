@@ -6,25 +6,25 @@ Hands-on Azure labs and PowerShell scripts you can deploy quickly.
 ## 📂 Projects (quick links)
 
 ### Compute & Monitoring
-- [VM Setup & Monitoring (Windows + Linux)](./DeploymentLabs/AzureVM/)
+- [VM Setup & Monitoring (Windows + Linux)](./Deployment-Labs/AzureVM/)
 
 ### Secrets & Cost Governance
-- [Azure Key Vault Lab](./AzureKeyVault-Lab/)
-- [Azure Budget Alerts](./Azure-Budget-Alerts/)
+- [Azure Key Vault Lab](./Deployment-Labs/AzureKeyVault-Lab/)
+- [Azure Budget Alerts](./Deployment-Labs/Azure-Budget-Alerts/)
 
 ### Endpoint Security & Ops
-- [Defender + Firewall Audit](./DefenderFirewall-Audit/)
-- [EventLog – Failed Logons](./EventLog-FailedLogons/)
-- [File Integrity – Baseline & Compare](./FileIntegrity-Baseline/)
-- [Services Health (Self-Heal optional)](./Services-Health/)
-- [Patch Compliance Snapshot](./PatchCompliance-Snapshot/)
+- [Defender + Firewall Audit](./Security-Labs/DefenderFirewall-Audit/)
+- [EventLog – Failed Logons](./Security-Labs/EventLog-FailedLogons/)
+- [File Integrity – Baseline & Compare](./Security-Labs/FileIntegrity-Baseline/)
+- [Services Health (Self-Heal optional)](./Security-Labs/Services-Health/)
+- [Patch Compliance Snapshot](./Security-Labs/PatchCompliance-Snapshot/)
 
 ### ITAM & Provisioning
-- [IT Asset Inventory](./Inventory/)
-- [Automated Software Installer (winget)](./SoftwareInstaller/)
+- [IT Asset Inventory](./ITAM/Inventory/)
+- [Automated Software Installer (winget)](./ITAM/SoftwareInstaller/)
 
 ### Infrastructure as Code
-- [Terraform – Azure Minimal](./Terraform-Azure-Minimal/)
+- [Terraform – Azure Minimal](./IaC/Terraform-Azure-Minimal/)
 
 
 ## ✅ Outcomes (examples)
