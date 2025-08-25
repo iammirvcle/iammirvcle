@@ -5,9 +5,9 @@ Provisioned a Windows Server VM, enabled monitoring (platform metrics + VM Insig
 ---
 
 With a Free Trial subscription you get 750 hours/month of B1s VM (Linux or Windows) for 12 months.
-		Size: B1s (1 vCPU, 1 GB RAM)
-		OS: Linux (Ubuntu, CentOS, etc.) or Windows Server
-		Region: Only certain regions support the B1s SKU (East US, West US, Central US, etc.).
+1.		Size: B1s (1 vCPU, 1 GB RAM)
+2.		OS: Linux (Ubuntu, CentOS, etc.) or Windows Server
+3.		Region: Only certain regions support the B1s SKU (East US, West US, Central US, etc.).
 👉 Anything larger (like B2s or D-series) will eat your credits immediately.
 
 
