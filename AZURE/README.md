@@ -6,7 +6,7 @@ Hands-on Azure labs and PowerShell scripts you can deploy quickly.
 ## 📂 Projects (quick links)
 
 ### Compute & Monitoring
-- [VM Setup & Monitoring (Windows + Linux)](./DeployementLabs/AzureVM/)
+- [VM Setup & Monitoring (Windows + Linux)](./DeploymentLabs/AzureVM/)
 
 ### Secrets & Cost Governance
 - [Azure Key Vault Lab](./AzureKeyVault-Lab/)
