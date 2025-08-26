@@ -1,7 +1,7 @@
 # 👋 Emir Taylor (aka MIRVCLE)
 **Cloud & Security Administrator | Azure | AWS | IAM | Splunk | Networking | AI**
 
----
+
 
 ## 🚀 About Me
 I’m a cloud and security professional focused on building hands-on projects across **Azure, AWS, networking, and AI**.  
@@ -11,7 +11,7 @@ My GitHub is an active portfolio of labs designed to demonstrate real-world skil
 - 📧 Email: emirtaylor@mirvcle.cloud  
 - 💼 LinkedIn: [linkedin.com/in/emirtaylor](https://linkedin.com/in/emirtaylor)  
 
----
+
 
 ## 📂 Repository Structure
 
@@ -41,7 +41,7 @@ My GitHub is an active portfolio of labs designed to demonstrate real-world skil
 - **Oracle-AI:** OCI Vision, OCI Language  
 - **OpenSource:** HuggingFace Transformers, LangChain, TensorFlow/PyTorch  
 
----
+
 
 ## 🎯 Current Goals
 - Sit for **Security+**, **AWS CCP**, **AZ-104**, and **Splunk Core Power User** next week.  
