@@ -1,57 +1,58 @@
-# 👨🏾‍💻 Emir Taylor - Cybersecurity IAM & Cloud Ops
+# 👋 Emir Taylor (aka MIRVCLE)
+**Cloud & Security Administrator | Azure | AWS | IAM | Splunk | Networking | AI**
 
-Cybersecurity, IAM, and Cloud Ops professional focused on building secure, scalable IT solutions with real-world impact. This repo highlights hands-on labs and automation projects demonstrating IT asset management, identity security, and cloud administration.
+---
 
-🛡️ **Core Expertise**  
-- **IAM:** Azure AD, Okta, CyberArk; MFA enforcement; least privilege  
-- **Endpoint & SecOps:** PowerShell, Defender, event log triage, file integrity, service health, patch status  
-- **Cloud:** Azure VM/Monitor/Key Vault/Budgets; AWS S3/CloudTrail/CloudWatch; OCI Cloud Guard/Vault/Budgets  
-- **ITAM & Workflow:** ServiceNow/CMDB mindset, lifecycle tracking, automation  
-- **IaC & Tooling:** Terraform (Azure), Git pre-commit secret scanning
+## 🚀 About Me
+I’m a cloud and security professional focused on building hands-on projects across **Azure, AWS, networking, and AI**.  
+My GitHub is an active portfolio of labs designed to demonstrate real-world skills for roles like **Cloud Administrator, IAM Engineer, and Cloud Security Analyst**.  
 
-☁️ **Cloud Directories**
-- **Azure:** [/AZURE](./AZURE) - Compute/Monitoring, Key Vault, Budgets, security audits, provisioning, and IaC  
-- **AWS:** [/AWS](./AWS) - S3 security & compliance, CloudTrail alarms, IAM MFA guardrail  
-- **Oracle OCI:** [/ORACLE](./ORACLE) - Cloud Guard, secure Object Storage, Budgets & alerts
+- 🌐 Blog: [mirvcle.cloud](https://mirvcle.cloud) – documenting my tech journey  
+- 📧 Email: emirtaylor@mirvcle.cloud  
+- 💼 LinkedIn: [linkedin.com/in/emirtaylor](https://linkedin.com/in/emirtaylor)  
 
+---
 
-📂 **Quick Links: Azure Labs**
-> All live under `/AZURE`.
+## 📂 Repository Structure
 
-## Compute & Monitoring
-- [VM Setup & Monitoring (Windows + Linux)](./AZURE/AzureVM/)
+### 🔑 ITAM (Identity & Access Management)
+- [LocalUserAudit](AZURE/ITAM/LocalUserAudit)  
+- [Azure RBAC Lab](AZURE/ITAM/RBAC-Lab)  
+- [Azure AD Lab](AZURE/ITAM/AzureAD-Lab)  
+- [Okta SSO Integration](VENDOR-ITAM/Okta-Lab)  
+- [CyberArk PAM Integration](VENDOR-ITAM/CyberArk-Lab)  
 
-## Secrets & Cost Governance
-- [Azure Key Vault Lab](./AZURE/AzureKeyVault-Lab/)
-- [Azure Budget Alerts](./AZURE/Azure-Budget-Alerts/)
+### 🔒 Security
+- [Defender Firewall Audit](AZURE/Security/DefenderFirewall-Audit)  
+- [Git Secret Guard](AZURE/Security/GitSecretGuard)  
+- [Splunk SIEM Integration](VENDOR-Security/Splunk-Lab)  
 
-## Endpoint Security & Ops
-- [Defender + Firewall Audit](./AZURE/DefenderFirewall-Audit/)
-- [EventLog – Failed Logons](./AZURE/EventLog-FailedLogons/)
-- [File Integrity – Baseline & Compare](./AZURE/FileIntegrity-Baseline/)
-- [Services Health (Self-Heal optional)](./AZURE/Services-Health/)
-- [Patch Compliance Snapshot](./AZURE/PatchCompliance-Snapshot/)
+### 🌐 Networking
+- [VNet & Subnets Lab](AZURE/Networking/VNet-Subnets)  
+- [NSG Firewall Lab](AZURE/Networking/NSG-Lab)  
+- [Load Balancer Lab](AZURE/Networking/Load-Balancer)  
+- [VPN Gateway Lab](AZURE/Networking/Site-to-Site-VPN)  
+- [Azure DNS Lab](AZURE/Networking/DNS-Lab)  
+- [Palo Alto Firewall Integration](VENDOR-Networking/PaloAlto-Lab)  
 
-## ITAM & Provisioning
-- [IT Asset Inventory](./AZURE/Inventory/)
-- [Automated Software Installer (winget)](./AZURE/SoftwareInstaller/)
+### 🤖 AI
+- **AzureAI:** CognitiveVision, OpenAI Chat, CustomML  
+- **AWS-AI:** Rekognition, Lex Bot, SageMaker  
+- **Oracle-AI:** OCI Vision, OCI Language  
+- **OpenSource:** HuggingFace Transformers, LangChain, TensorFlow/PyTorch  
 
-## Infrastructure as Code
-- [Terraform – Azure Minimal](./AZURE/Terraform-Azure-Minimal/)
+---
 
+## 🎯 Current Goals
+- Sit for **Security+**, **AWS CCP**, **AZ-104**, and **Splunk Core Power User** next week.  
+- Build out vendor labs for **Okta, CyberArk, Splunk, Palo Alto, HuggingFace**.  
+- Align skills with roles like **Cloud Administrator, IAM Engineer, and Security Analyst**.  
 
-🔗 **Feel free to connect:**
+---
 
-LinkedIn: linkedin.com/in/emirtaylor
+## 📬 Connect
+- Blog: [mirvcle.cloud](https://mirvcle.cloud)  
+- Email: emirtaylor@mirvcle.cloud  
+- LinkedIn: [linkedin.com/in/emirtaylor](https://linkedin.com/in/emirtaylor)  
 
-Blog: mirvcle.cloud/blog
-
-
-## How to Run the Scripts
-Most scripts are PowerShell and write to an `output/` folder (CSV, JSON, logs).
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
-# then cd into a project folder (e.g., ./AZURE/inventory) and run the .ps1
-
-
+---
