@@ -3,7 +3,7 @@
 Practical security and cost-control labs for OCI. Subfolders include step-by-step console guidance and screenshots to capture.
 
 ## Projects
-- [Cloud Guard – Quick Start & Findings](./CloudGuard-QuickStart)
+- [Cloud Guard – Quick Start & Findings](./OCI-CloudGuard-QuickStart)
 - [Object Storage – Private, Encrypted Bucket (Vault/KMS)](./ObjectStorage-Secure-Bucket)
 - [Budgets & Cost Alerts (ONS Notifications)](./Budgets-Alerts)
 
