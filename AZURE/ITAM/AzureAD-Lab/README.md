@@ -24,7 +24,7 @@ This is a sim pf real-world identity governance workflows that system administra
 - Click Manage tenants → + Create.
 - Created a new tenant named `MirvcleAD-Lab`  
 - Domain: `mirvclelab.onmicrosoft.com`
-- 
+  
 📸 *[screenshot of tenant overview page]*
 
 
