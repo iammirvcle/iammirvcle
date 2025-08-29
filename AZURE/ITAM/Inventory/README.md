@@ -19,7 +19,7 @@ The outputs are **JSON** (detailed) and **CSV** (summary), making them easy to a
 ## ⚙️ Endpoint Inventory - `Inventory.ps1`
 Collects **local system information** from a Windows machine.
 
-## ⚙️ Azure Resource Inventory - 'AzureInventory.ps1'
+## ⚙️ Azure Resource Inventory - `AzureInventory.ps1`
 Enumerates Azure resources in a subscription or specific Resource Group.
 
 
