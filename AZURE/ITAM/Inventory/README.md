@@ -1,16 +1,26 @@
-# PC Asset Inventory Script
+# 📦 Inventory Script Lab
 
-A simple PowerShell script that captures device hardware/software details and exports them to a CSV file for IT Asset Management (ITAM).
+## 📌 Overview
+This lab demonstrates how to collect and track **IT asset inventory** using PowerShell scripts.  
+It covers both **endpoint inventory** (hardware, OS, applications, BitLocker, users) and **Azure resource inventory** (cloud resources by subscription or resource group).  
 
-## Features
-- Captures: Computer name, OS/build, CPU, RAM, disk totals/free, serial number, IP address, installed app count, logged-in user.
-- Outputs to `output/asset-inventory.csv`.
-- Useful for onboarding, lifecycle tracking, or quick audits.
+The outputs are **JSON** (detailed) and **CSV** (summary), making them easy to archive, audit, or upload into an ITAM system.
 
-## Run
+
+
+## 🧩 Lab Objectives
+- Collect endpoint inventory (hardware, OS, network, apps, BitLocker)  
+- Collect Azure subscription or resource group inventory  
+- Save outputs in JSON + CSV for easy reporting  
+- Optionally upload results to **Azure Storage** using a SAS token  
+
+
+
+## ⚙️ Endpoint Inventory – `Get-Inventory.ps1`
+Collects **local system information** from a Windows machine.
+
+### Run
 ```powershell
-Set-ExecutionPolicy -Scope CurrentUser Bypass -Force
-.\Inventory.ps1
-
-## Outcome (example)
-Captured a full hardware/software baseline for a test device in ~5 seconds; template scales to fleet CSV exports for CMDB/ServiceNow, saving ~10–15 minutes per device vs manual collection.
+# Run as Administrator (recommended for BitLocker info)
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\Get-Inventory.ps1 -OutDir C:\Inventory
